@@ -26,7 +26,8 @@ body {
 }
 
 .navg li:hover {
-    background-color: blue;
+    background-color: rgb(180, 151, 151);
+    border-radius: 20px;
 }
 
 .navi {
@@ -34,5 +35,6 @@ body {
     align-content: space-between;
     list-style: none;
     text-decoration: none;
-    color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
