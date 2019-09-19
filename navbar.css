@@ -1,4 +1,6 @@
 html, body {
+    margin: 0;
+    padding: 0;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     background-image: url(assets/pictures/background.jpg);  
@@ -70,85 +72,108 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
+/*//////////////////////////////////////////////*/
+/*///////////////////NAVBAR/////////////////////*/
 
-/*NAVBAR*Morgan*/
+
+.navblock{
+    z-index: 100;
+    width: 100%;
+    margin :0;
+}
 
 .navg {
+<<<<<<< HEAD
     margin: 0;
     padding: 0px;
+=======
+    width:80%;
+    margin: auto;
+    padding : 0;
+>>>>>>> 1a1fee66574e34daf78b488014d1c528bdf24172
     display: flex;
-    background-size: cover;
-    width: 100%;
-    height: 6%;
     align-items: center;
     justify-content: space-evenly;
-    align-content: flex-end;
-    margin-bottom: 0;
     list-style: none;
 }
-
-/* .navg li:hover {
-    background-color: rgb(180, 151, 151);
-    border-radius: 20px;
-} */
 
 .navi {
-    display: flex;
-    align-content: space-between;
-    list-style: none;
+    text-transform: uppercase; 
     text-decoration: none;
+    font-family: 'Rubik', sans-serif; 
 }
-
 
 
 @media (max-width:960px) {
-    html {
-        font-size: 10px;
-    }
-
-    .navg {
-        display: flex;
-        align-items: center;
+   
+    .navblock{
+        padding: 10px 10px 10px 0;
+        width: 100%;
         position: fixed;
         bottom: 0;
         background-color: #362A23;
-        z-index: 100;
-    }
-
-    nav a {
-        text-transform: uppercase;    
-        list-style: none;
-        font-family: 'Rubik', sans-serif;
-        color: #F0EDEB;
-        text-decoration: none;
-        font-size: 0.8rem;
-        letter-spacing: 1.2pt;
     }
 
     .navi {
+        font-size: 0.8rem;
         color: #F0EDEB;
+        letter-spacing: 1.2pt;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 80px;
-    }
-
-    .navg li {
-
         height: 100%;
-    }
-
-    .banersize {
-        width: 100%;
-        height: auto;
     }
 
     .icon-nav {
         height: 30px;
         width: auto;
    }
+    .navi:hover {
+        opacity: 0.6;
+    }
+
+}
+
+@media (min-width:961px) {
+
+    .navblock {
+        padding-top:12px;
+        position: sticky;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.712);
+        height: 35px;
+
+    }
+
+    .navi{
+        font-size: 1.1rem;
+        color: #362A23;
+        letter-spacing: 1.9pt;
+    }
+ 
+    .icon-nav {
+        display: none;
+    }
+
+    .navi:hover  {
+        color: #E63C1F;
+    }
+ }
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+
+
+
+
+/*//////////////////////////////////////////////*/
+/*///////////////////LOGO/////////////////////*/
+
+@media (max-width:960px) {
 
    .toplogo {
+        max-width: 300px;
         width: 60%;
         height: auto;
    }
@@ -159,9 +184,43 @@ footer {
     }
 }
 
-}
+
 
 @media (min-width:961px) {
+    
+   .toplogo {
+        width: 30%;
+        height: auto;
+}
 
+<<<<<<< HEAD
 
 }
+=======
+    .logocenter {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1vh;
+    } 
+}
+
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+
+
+
+
+.banersize {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width:960px) {
+    html {
+        font-size: 10px;
+    }
+  
+}
+>>>>>>> 1a1fee66574e34daf78b488014d1c528bdf24172
