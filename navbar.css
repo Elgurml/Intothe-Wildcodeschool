@@ -75,7 +75,7 @@ footer {
 
 .navg {
     margin: 0;
-    padding: 10px;
+    padding: 0px;
     display: flex;
     background-size: cover;
     width: 100%;
@@ -163,33 +163,5 @@ footer {
 
 @media (min-width:961px) {
 
-   nav a {
-        text-transform: uppercase; 
-        color: #362A23;
-        text-decoration: none;
-        font-size: 1.1rem;
-        letter-spacing: 1.9pt;
-        font-family: 'Rubik', sans-serif;   
-   }
 
-
-   .navblock {
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.712);
-    height: 5vw;
-    z-index: 10;
-   }
-
-   .toplogo {
-       width: 100%;
-       height: auto;
-   }
-
-   .icon-nav {
-       display: none;
-   }
-   
 }
