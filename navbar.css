@@ -83,14 +83,9 @@ footer {
 }
 
 .navg {
-<<<<<<< HEAD
-    margin: 0;
-    padding: 0px;
-=======
     width:80%;
     margin: auto;
     padding : 0;
->>>>>>> 1a1fee66574e34daf78b488014d1c528bdf24172
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -193,10 +188,6 @@ footer {
         height: auto;
 }
 
-<<<<<<< HEAD
-
-}
-=======
     .logocenter {
         display: flex;
         justify-content: center;
@@ -223,4 +214,3 @@ footer {
     }
   
 }
->>>>>>> 1a1fee66574e34daf78b488014d1c528bdf24172
