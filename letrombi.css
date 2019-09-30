@@ -138,7 +138,7 @@ p{
 }
 
 [data-theme="dark"] {
-    --bgImage: url(https://images.unsplash.com/photo-1565502233712-f0c4a3343877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    --bgImage: url(assets/pictures/background-dark.jpg);
     --fontBrownFirst: rgb(255, 255, 255);
     --fontGreyFirst: rgb(191, 203, 230);
     --fontRedFirst: rgb(149, 19, 182);
