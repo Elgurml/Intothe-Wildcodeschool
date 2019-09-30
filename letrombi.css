@@ -2,7 +2,7 @@
 html, body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    background-image: var(--bgImage);  
+    background: var(--bgImage) no-repeat center fixed;  
     background-size: cover;
  }
 
@@ -51,7 +51,7 @@ p{
 
 .brown{
     background-color: var(--peopleBgBrownFirst);
-    mix-blend-mode: var(var(--blendOrNo));
+    /* mix-blend-mode: var(--blendOrNo); */
     color: var(--fontGreyFirst);
     
 }
@@ -59,7 +59,7 @@ p{
 
 .grey{
     background-color: var(--peopleBgGreyFirst);
-    mix-blend-mode: var(var(--blendOrNo));
+    /* mix-blend-mode: var(--blendOrNo); */
     color:#E63C1F;
 }
 
@@ -76,7 +76,7 @@ p{
         grid-gap: 2rem; 
         justify-content: space-around;
     }
- 
+
     article{
         justify-content: flex-start;
         display: flex;
@@ -142,8 +142,8 @@ p{
     --fontBrownFirst: rgb(255, 255, 255);
     --fontGreyFirst: rgb(191, 203, 230);
     --fontRedFirst: rgb(149, 19, 182);
-    --peopleBgGreyFirst: rgba(105, 9, 9, 0.892);
-    --peopleBgBrownFirst: rgba(10, 47, 61, 0.877);
+    --peopleBgGreyFirst: rgba(70, 8, 8, 0.892);
+    --peopleBgBrownFirst: rgba(7, 37, 48, 0.877);
 }
 
 .header{
