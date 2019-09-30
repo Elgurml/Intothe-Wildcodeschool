@@ -51,7 +51,7 @@ p{
 
 .brown{
     background-color: var(--peopleBgBrownFirst);
-    mix-blend-mode: multiply;
+    mix-blend-mode: var(var(--blendOrNo));
     color: var(--fontGreyFirst);
     
 }
@@ -59,14 +59,9 @@ p{
 
 .grey{
     background-color: var(--peopleBgGreyFirst);
-    mix-blend-mode: multiply;
+    mix-blend-mode: var(var(--blendOrNo));
     color:#E63C1F;
 }
-
-section article img{
-    mix-blend-mode: normal;
-}
-
 
 @media screen and (min-width:961px){
     .sectionTrombi{
@@ -139,6 +134,7 @@ section article img{
     --fontRedFirst: #E63C1F;
     --peopleBgGreyFirst: rgba(240, 237, 235, 0.892);
     --peopleBgBrownFirst: rgba(54, 42, 35, 0.877);
+    --blendOrNo: multiply;
 }
 
 [data-theme="dark"] {
