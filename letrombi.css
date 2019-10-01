@@ -63,11 +63,39 @@ p{
     color:#E63C1F;
 }
 
+#flauz{
+    content: var(--florianImg);
+}
+#leonard{
+    content: var(--leonardImg);
+}
+#fanny{
+    content: var(--fannyImg);
+}
+#morgan{
+    content: var(--morganImg);
+}
+#maxence{
+    content: var(--maxenceImg);
+}
+#charlotte{
+    content: var(--charlotteImg);
+}
+#thomas{
+    content: var(--thomasImg);
+}
+#jenny{
+    content: var(--jennyImg);
+}
+#abdou{
+    content: var(--abdouImg);
+}
+
+
 @media screen and (min-width:961px){
     .sectionTrombi{
         display: grid;
         grid-template-rows: 40px repeat(1, 1fr);
-
     }
 
     .oneblock, .teacher{
@@ -135,6 +163,15 @@ p{
     --peopleBgGreyFirst: rgba(240, 237, 235, 0.892);
     --peopleBgBrownFirst: rgba(54, 42, 35, 0.877);
     --blendOrNo: multiply;
+    --florianImg: url(assets/pictures/wilder1.jpg);
+    --leonardImg: url(assets/pictures/wilder2.jpg);
+    --fannyImg: url(assets/pictures/wilder3.jpg);
+    --morganImg: url(assets/pictures/wilder4.jpg);
+    --maxenceImg: url(assets/pictures/wilder5.jpg);
+    --charlotteImg: url(assets/pictures/wilder6.jpg);
+    --thomasImg: url(assets/pictures/teacher1.jpg);
+    --jennyImg: url(assets/pictures/teacher2.jpg);
+    --abdouImg: url(assets/pictures/teacher3.jpg);
 }
 
 [data-theme="dark"] {
@@ -144,6 +181,15 @@ p{
     --fontRedFirst: rgb(149, 19, 182);
     --peopleBgGreyFirst: rgba(87, 115, 255, 0.892);
     --peopleBgBrownFirst: rgba(87, 115, 255, 0.892);
+    --florianImg: url(assets/pictures/wilder1-dark.jpg);
+    --leonardImg: url(assets/pictures/wilder2-dark.jpg);
+    --fannyImg: url(assets/pictures/wilder3-dark.jpg);
+    --morganImg: url(assets/pictures/wilder4-dark.jpg);
+    --maxenceImg: url(assets/pictures/wilder5-dark.jpg);
+    --charlotteImg: url(assets/pictures/wilder6-dark.jpg);
+    --thomasImg: url(assets/pictures/teacher1-dark.jpg);
+    --jennyImg: url(assets/pictures/teacher2-dark.jpg);
+    --abdouImg: url(assets/pictures/teacher3-dark.jpg);
 }
 
 .header{
