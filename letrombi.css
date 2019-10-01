@@ -142,8 +142,8 @@ p{
     --fontBrownFirst: rgb(255, 255, 255);
     --fontGreyFirst: rgb(191, 203, 230);
     --fontRedFirst: rgb(149, 19, 182);
-    --peopleBgGreyFirst: rgba(70, 8, 8, 0.892);
-    --peopleBgBrownFirst: rgba(7, 37, 48, 0.877);
+    --peopleBgGreyFirst: rgba(87, 115, 255, 0.892);
+    --peopleBgBrownFirst: rgba(87, 115, 255, 0.892);
 }
 
 .header{
