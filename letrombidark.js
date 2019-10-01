@@ -1,4 +1,4 @@
-const darkMode = document.querySelector('.sun');
+const darkMode = document.querySelector('.slideThree');
 
 darkMode.onclick = function(){
     window.location.href = "letrombi.html"
