@@ -60,11 +60,11 @@ p{
     color:#E63C1F;
 }
 
-
 @media screen and (min-width:961px){
     .sectionTrombi{
         display: grid;
         grid-template-rows: 40px repeat(1, 1fr);
+
     }
 
     .oneblock, .teacher{
@@ -124,6 +124,24 @@ p{
 
 /*//////////////////////Dark mode////////////////////////*/
 
+:root {
+    --bgImage: url(assets/pictures/background.jpg);
+    --fontBrownFirst: #362A23;
+    --fontGreyFirst: #F0EDEB;
+    --fontRedFirst: #E63C1F;
+    --peopleBgGreyFirst: rgba(240, 237, 235, 0.892);
+    --peopleBgBrownFirst: rgba(54, 42, 35, 0.877);
+    --blendOrNo: multiply;
+}
+
+[data-theme="dark"] {
+    --bgImage: url(assets/pictures/background-dark.jpg);
+    --fontBrownFirst: rgb(255, 255, 255);
+    --fontGreyFirst: rgb(191, 203, 230);
+    --fontRedFirst: rgb(149, 19, 182);
+    --peopleBgGreyFirst: rgba(87, 115, 255, 0.892);
+    --peopleBgBrownFirst: rgba(87, 115, 255, 0.892);
+}
 
 .header{
     position: absolute;
