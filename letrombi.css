@@ -53,7 +53,6 @@ p{
     background-color: var(--peopleBgBrownFirst);
     /* mix-blend-mode: var(--blendOrNo); */
     color: var(--fontGreyFirst);
-    
 }
 
 
@@ -63,9 +62,15 @@ p{
     color:#E63C1F;
 }
 
-#flauz{
-    content: var(--florianImg);
+#flauz{  
+    padding:50%;
+    background-image: var(--florianImg);  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
 }
+
+
 #leonard{
     content: var(--leonardImg);
 }
@@ -105,18 +110,26 @@ p{
         justify-content: space-around;
     }
 
-    article{
-        justify-content: flex-start;
+    article {
+        justify-content: center;
         display: flex;
         flex-direction: column;
         padding: 2rem;
     }
 
-    article img{
+    
+
+    /*#flauz{
         width: 100%;
-        height:auto;
-        object-fit:cover;
-    }
+        height: 400px;
+        margin: auto;
+        padding: auto;
+        background-image: var(--florianImg);  
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;*/
+    
+
 }
 
 
@@ -146,11 +159,6 @@ p{
         border: 5px, solid #362A23;
     }
 
-    article img{
-        width: 100%;
-        height:auto;
-        object-fit:cover;
-    }
 }
 
 /*//////////////////////Dark mode////////////////////////*/
