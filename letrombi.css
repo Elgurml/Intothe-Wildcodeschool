@@ -131,7 +131,7 @@ p{
 @media screen and (min-width:961px){
     .sectionTrombi{
         display: grid;
-        grid-template-rows: 40px repeat(1, 1fr);
+        grid-template-rows:1fr;
     }
 
     .oneblock, .teacher{

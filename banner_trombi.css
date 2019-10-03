@@ -50,7 +50,6 @@ h1 {
 :root {
     --logoImg :url(assets/pictures/logo.png);
     --bannerImg : url(assets/pictures/banner-title-whiteborder.png), url(assets/pictures/banner-title-trombi-background.jpg);
-    --fdWhiteFirst: rgba(250, 250, 250, 0.892);
     --fontBrownFirst: #362A23;
     --fontGreyFirst: #F0EDEB;
     --fontRedFirst: #E63C1F;

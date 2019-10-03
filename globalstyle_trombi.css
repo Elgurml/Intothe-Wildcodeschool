@@ -264,7 +264,7 @@ h3.red-title {
     }
 
     .navi:hover  {
-        color:var(--fontRedFirst);
+        color:var(--fontPurple);
     }
  }
 
@@ -286,7 +286,7 @@ h3.red-title {
 @media screen and (max-width: 960px) {
 
     footer {
-        background-color:var(--fontRedFirst);
+        background-color:var(--fontPurple);
         color: #362A23;
         font-family: 'Roboto', sans-serif;
         width: 100%;
@@ -345,7 +345,7 @@ h3.red-title {
 
 @media screen and (min-width: 961px) {
     footer {
-        background-color:var(--fontRedFirst);
+        background-color:var(--fontPurple);
         color: #362A23;
         font-family: 'Roboto', sans-serif;
         width: 100%;
@@ -410,7 +410,7 @@ h3.red-title {
     --fdWhiteFirst: rgba(255, 255, 255, 0.892);
     --fontBrownFirst: #362A23;
     --fontGreyFirst: #F0EDEB;
-    --fontRedFirst: #E63C1F;
+    --fontPurple: #E63C1F;
     --peopleBgGreyFirst: rgba(240, 237, 235, 0.892);
     --peopleBgBrownFirst: rgba(54, 42, 35, 0.877);
     --blendOrNo: multiply;
@@ -431,7 +431,7 @@ h3.red-title {
     --fdWhiteFirst: rgba(0, 0, 0, 0.892);
     --fontBrownFirst: rgb(255, 255, 255);
     --fontGreyFirst: rgb(191, 203, 230);
-    --fontRedFirst: rgba(87, 115, 255, 1);
+    --fontPurple: rgba(87, 115, 255, 1);
     --peopleBgGreyFirst: rgba(87, 115, 255, 0.892);
     --peopleBgBrownFirst: rgba(87, 115, 255, 0.892);
     --florianImg: url(assets/pictures/wilder1-dark.jpg);
