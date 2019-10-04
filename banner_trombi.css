@@ -73,7 +73,8 @@ h1 {
     --fdWhiteFirst: rgba(10, 10, 10, 0.892);
     --fontBrownFirst: rgb(255, 255, 255);
     --fontGreyFirst: rgb(191, 203, 230);
-    --fontRedFirst: rgb(77, 22, 22);
+    --fontRedFirst: rgba(10, 10, 12, 0.892);
+    --fontRedTitle: #960a0a;
     --peopleBgGreyFirst: rgba(87, 115, 255, 0.892);
     --peopleBgBrownFirst: rgba(87, 115, 255, 0.892);
     --florianImg: url(assets/pictures/wilder1-dark.jpg);

@@ -25,7 +25,7 @@ h3 {
 
 h3.red-title {
     font-family: 'Rubik', sans-serif;
-    color: var(--fontRedFirst);
+    color: var(--fontRedTitle);
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 1.5pt;
@@ -45,6 +45,7 @@ h5{
 }
 
 p{
+    text-align: justify;
     font-size: 1.2rem;
 }
 
@@ -198,8 +199,9 @@ p{
     --bgImage: url(assets/pictures/background-dark.jpg);
     --fontBrownFirst: rgb(255, 255, 255);
     --fontGreyFirst: rgb(191, 203, 230);
-    --fontRedFirst: rgb(77, 22, 22);
-    --peopleBgGreyFirst: rgba(87, 115, 255, 0.892);
+    --fontRedFirst: rgba(10, 10, 12, 0.892);
+    --fontRedTitle: #960a0a;
+    --peopleBgGreyFirst: rgba(10, 10, 12, 0.892);
     --peopleBgBrownFirst: rgba(87, 115, 255, 0.892);
     --florianImg: url(assets/pictures/wilder1-dark.jpg);
     --leonardImg: url(assets/pictures/wilder2-dark.jpg);
